@@ -23,7 +23,7 @@ import OrderDetails from "./components/order/OrderDetails";
 
 function App() {
   useEffect(() => {
-    store.dispatch(loadUser());
+    // store.dispatch(loadUser());
   }, []);
 
   return (
