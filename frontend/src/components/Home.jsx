@@ -37,7 +37,7 @@ const Home = () => {
 
   useEffect(() => {
     if (restaurantsError) {
-      return alert.error(restaurantsError);
+      return alert(restaurantsError);
     }
     dispatch(getRestaurants(keyword));
   }, [dispatch, restaurantsError, keyword]);
