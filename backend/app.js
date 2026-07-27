@@ -16,7 +16,7 @@ app.use(
     // origin: "https://genie-food-app.netlify.app",
     origin:[
       "http://localhost:5173",
-      "https://foodorderai.netlify.app/"
+      "https://foodorderai.netlify.app"
     ],
     credentials: true,
   }),
